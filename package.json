@@ -1,0 +1,38 @@
+{
+  "name": "typescript",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.6.6",
+    "@heroicons/react": "^1.0.6",
+    "@nextui-org/react": "^1.0.0-beta.9",
+    "@rainbow-me/rainbowkit": "^1.3.0",
+    "dotenv": "^16.0.2",
+    "ethers": "^5.6.9",
+    "lodash": "^4.17.21",
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-lazyload": "^3.2.0",
+    "viem": "~1.19.4",
+    "wagmi": "~1.4.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^18.18.10",
+    "@types/react": "^18.2.37",
+    "eslint": "^8.15.0",
+    "eslint-config-next": "^13.4.19",
+    "typescript": "^5.0.4"
+  }
+}
